@@ -1,0 +1,7 @@
+.nav-links span {
+  @apply font-space-grotesk cursor-pointer;
+}
+
+.nav-links span:hover {
+  @apply underline decoration-custom-red decoration-2 underline-offset-4;
+}
