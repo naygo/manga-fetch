@@ -5,12 +5,12 @@ import { RouterModule } from '@angular/router';
 import { routes } from '../../app.routes';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-navbar',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss',
+  templateUrl: './navbar.component.html',
+  styleUrl: './navbar.component.scss',
 })
-export class HeaderComponent {
+export class NavbarComponent {
   routes = routes;
 }
